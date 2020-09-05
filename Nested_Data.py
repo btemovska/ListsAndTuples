@@ -40,25 +40,25 @@ albums = [
      ),
 ]
 
-for name, artist, year, songs in albums:
-    print("Album: {}, Artist: {}, Year: {}, Songs: {}"
-          .format(name, artist, year, songs))
-
-print()
-
-album = albums[3] #the album in position 3 is More Mayhem
-print(albums)
-songs = album[3] #the songs of More Mayhem in are in position 3
-print(songs)
-song = songs[2] #getting particular song, in position 2 is Mayhem
-print(song)
-print(song[1]) #Mayhem
-
-print()
-
-mayham = albums[3][3][2][1]
-print(mayham) #Mayhem
-#first 3 is the tupple
-#second 3 is the songs of "More Mayhem
-# 2 3rd item from the songs list
-# 1 inside the 3rd item give me the title
+# for name, artist, year, songs in albums:
+#     print("Album: {}, Artist: {}, Year: {}, Songs: {}"
+#           .format(name, artist, year, songs))
+#
+# print()
+#
+# album = albums[3] #the album in position 3 is More Mayhem
+# print(albums)
+# songs = album[3] #the songs of More Mayhem in are in position 3
+# print(songs)
+# song = songs[2] #getting particular song, in position 2 is Mayhem
+# print(song)
+# print(song[1]) #Mayhem
+#
+# print()
+#
+# mayham = albums[3][3][2][1]
+# print(mayham) #Mayhem
+# #first 3 is the tupple
+# #second 3 is the songs of "More Mayhem
+# # 2 3rd item from the songs list
+# # 1 inside the 3rd item give me the title
